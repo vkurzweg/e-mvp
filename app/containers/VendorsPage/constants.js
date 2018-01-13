@@ -1,0 +1,9 @@
+export const SET_OCCASION = 'app/search/SET_OCCASION';
+export const SET_DATE = 'app/search/SET_DATE';
+export const SET_ZIP = 'app/search/SET_ZIP';
+export const SET_LOCATION = 'app/SearchPage/SET_LOCATION';
+export const SET_VENDOR_CATEGORY = 'app/search/SET_VENDOR_CATEGORY';
+export const FETCH_VENDORS = 'app/vendors/FETCH_VENDORS';
+export const FETCH_VENDORS_SUCCESS = 'app/vendors/FETCH_VENDORS_SUCCESS';
+export const FETCH_VENDORS_FAILURE = 'app/vendors/FETCH_VENDORS_FAILURE';
+export const SET_VENDORS = 'app/vendors/SET_VENDORS';

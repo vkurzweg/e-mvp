@@ -1,0 +1,9 @@
+export const SET_OCCASION = 'app/search/SET_OCCASION';
+export const SET_DATE = 'app/search/SET_DATE';
+export const SET_ZIP = 'app/search/SET_ZIP';
+export const QUERY_ATTEMPT = 'app/search/QUERY_ATTEMPT';
+export const QUERY_SUCCESS = 'app/search/QUERY_SUCCESS';
+export const QUERY_FAILURE = 'app/search/QUERY_FAILURE';
+export const FETCH_FEATURED_VENDORS = 'app/LandingPage/FETCH_FEATURED_VENDORS';
+export const FETCH_FEATURED_VENDORS_SUCCESS = 'app/LandingPage/FETCH_FEATURED_VENDORS_SUCCESS';
+export const FETCH_FEATURED_VENDORS_FAILURE = 'app/LandingPage/FETCH_FEATURED_VENDORS_FAILURE';

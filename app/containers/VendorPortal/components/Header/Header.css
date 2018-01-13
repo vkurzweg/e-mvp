@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+.root {
+  background: #373277;
+  color: #fff;
+}
+
+/*.container {
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: var(1000px);
+}*/
+/*.brand {
+  color: color(var(#61dafb) lightness(+10%));
+  text-decoration: none;
+  font-size: 1.75em;
+}*/
+.brandTxt {
+  margin-left: 10px;
+}
+
+.nav {
+  float: right;
+  margin-top: 6px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.bannerTitle {
+  margin: 0;
+  padding: 10px;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 1em;
+}
+
+.bannerDesc {
+  padding: 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25em;
+  margin: 0;
+}
+
+.topNavbar {
+  background: none;
+  border-radius: 0;
+  border: none;
+}
+.topNavbar .navbarHeader {
+  width: var(235px);
+  background: var(#3ca2e0);
+}
+.topNavbar .navbarHeader .navbarBrand {
+  display: block;
+  color: #d6ebf8;
+  float: none;
+  /*background: transparent;*/
+}
+.topNavbar .navbarHeader .navbarBrand:hover {
+  color: #ecf6fc;
+}
+.topNavbar .navbarCollapse {
+  background-color: #fff;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+  height: 50px !important;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+}
+.topNavbar .navbarForm {
+  padding-left: 15px;
+}
+.topNavbar .navbarForm .glyphiconStyle {
+  opacity: 0.7;
+}
+.topNavbar .navbarForm .formControl {
+  width: 40px;
+  border-radius: 0;
+  outline: none;
+  padding: 2px 22px;
+  border: none;
+  margin-left: -20px;
+  border-bottom: 1px solid color(var(#3ca2e0) 10%);
+  background: inherit;
+  box-shadow: none;
+  opacity: 0.7;
+  transition: all .2s linear;
+}
+.topNavbar .navbarForm .formControl:focus {
+  width: 200px;
+  opacity: 1;
+}
+.topNavbar .ulNavbar {
+  margin-top: -3px;
+  /* below focus or hover or activer not working*/
+}
+.topNavbar .ulNavbar li {
+  transition: all .2s linear;
+}
+.topNavbar .ulNavbar li ul {
+  padding: 0;
+  top: 100%;
+}
+.topNavbar .ulNavbar li ul li a {
+  padding-bottom: 8px;
+}
+.topNavbar .ulNavbar a:hover, .topNavbar .ulNavbar a:focus, .topNavbar .ulNavbar a:active {
+  background: var(#3ca2e0);
+  color: #FFF;
+}
+.topNavbar .ulNavbar .glyphiconStyle {
+  font-size: 16px;
+}
+.topNavbar .ulNavbar .badgeGreen {
+  background-color: var(#7BB77C);
+}
+.topNavbar .ulNavbar .badgeRed {
+  background-color: var(#de6764);
+}
+.topNavbar .ulNavbar .dropDownMenu {
+  padding: 0;
+  border: none;
+  border-top: 1px solid #eee;
+  transition: all 0.1s linear;
+}
+.topNavbar .ulNavbar .dropDownMenu .messageTop {
+  padding: 0;
+  border: 1px solid #eee;
+  border-top: none;
+  font-size: 12px;
+  opacity: 0.7;
+}
+.topNavbar .ulNavbar .dropDownMenu .messageTop a {
+  padding: 10px;
+}
+.topNavbar .ulNavbar .dropDownMenu .dropDownMessage {
+  width: 260px;
+  border: 1px solid #eee;
+  border-top: none;
+}
+.topNavbar .ulNavbar .dropDownMenu .dropDownMessage a {
+  width: 100%;
+  height: 53px;
+}
+.topNavbar .ulNavbar .dropDownMenu .dropDownMessage .messageSender {
+  padding-top: 5px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.topNavbar .ulNavbar .dropDownMenu .dropDownMessage .messageHeader {
+  font-size: 11px;
+  padding-top: 3px;
+  opacity: .7;
+}
+.topNavbar .ulNavbar .dropDownMenu .notificationHeader {
+  border: 1px solid #eee;
+  border-top: none;
+  font-size: 12px;
+  opacity: 0.7;
+}
+.topNavbar .ulNavbar .dropDownMenu .notificationHeader a {
+  padding: 10px;
+}
+.topNavbar .ulNavbar .dropDownMenu .dropDownNotification {
+  width: 260px;
+  border: 1px solid #eee;
+  border-top: none;
+}
+.topNavbar .ulNavbar .dropDownMenu .dropDownNotification a {
+  width: 100%;
+}
+.topNavbar .ulNavbar .dropDownMenu .dropDownNotification .notificationBody {
+  padding-top: 5px;
+  font-size: 12px;
+}
+.topNavbar .ulNavbar .dropDownMenu .dropDownNotification .notificationBody .faStyle {
+  margin-right: 20px;
+  opacity: 0.8;
+}
+.topNavbar .pullRight ul {
+  padding: 0;
+}
+.topNavbar .pullRight ul li {
+  border: 1px solid #eee;
+  border-top: none;
+}
+.topNavbar .pullRight ul[aria-labelledby='dropDown3'] li a {
+  padding: 10px 15px;
+}
+.topNavbar .pullRight .navbarProfile a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.topNavbar .topnavImg {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.btnStyle {
+  margin: 8px 10px;
+  border-color: var(#3ca2e0);
+  color: var(#3ca2e0);
+  border-radius: 50px;
+  background: #FFFFFF;
+  border-width: 2px;
+}
+.btnStyle:hover {
+  background: var(#3ca2e0);
+  border-color: var(#3ca2e0);
+}
+
+.hidd {
+  display: none;
+}
+
+@media only screen and (max-width: 856px) {
+  .buyButton {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .topNavbar {
+    background: var(#3ca2e0);
+  }
+
+  ul.hidd {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -8px;
+    z-index: 3;
+  }
+  ul.hidd li.dropdown a {
+    padding: 10px 20px !important;
+  }
+  ul.hidd li.dropdown a:hover, ul.hidd li.dropdown a:focus, ul.hidd li.dropdown a:active {
+    background-color: var(#3ca2e0);
+    color: #FFF;
+  }
+  ul.hidd a img.topnavImg {
+    margin-right: 10px;
+  }
+
+  ul.hidd:hover, ul.hidd:focus, ul.hidd:active {
+    background: none;
+  }
+
+  .topNavbar .navbarHeader {
+    width: 100%;
+  }
+}
